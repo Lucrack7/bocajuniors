@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	/* background-image: url("/img/boca.jpg");
+	background-repeat: no-repeat;
+	background-size: contain; */
+	text-shadow: 7px 4px 5px rgba(3, 15, 255, 0.964);
+	color: #e5faf9;
+    font-family: 'Work Sans';
+	overflow: hidden;
+	background: blue;
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 1150px;
+} 
+
+/* .fondo img{
+	width: 1900px;
+	height: 1150px;
+} */
+
+.escudos img{
+	width: 150px;
+	height: 170px;
+	margin-left: 20%;
+	position: absolute;
+	display: inline-block;
+	justify-content: center;
+}
+
+.escudos .boca{
+	bottom: 170%;
+	margin-left: -20%;
+}
+
+.escudos .lib{
+	bottom: 160%;
+	right: 42%;
+	width: 100px;
+	height: 200px;
+}
+
+.escudos .flu{
+	bottom: 170%;
+	left: 50%;
+}
+
+
+
+
+
+/* ? ----- PORTADA ----- */
+.portada {
+	position: fixed;
+	top: 680px;
+	left: 0px;
+	right: 115px;
+	bottom: 0px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+.logotipo{
+	position: fixed;
+	left: 40px;
+	top: 20px;
+	right: 100px;
+	bottom: 380px;
+	color: gold;
+}
+
+h2{
+	position: fixed;
+	top: 20%;
+	text-align: center;
+}
+
+.portada.oculta {
+	transform: translateY(100%);
+}
+.portada .header {
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.portada .header .logotipo {
+	font-size: 50px;
+	font-size: 900;
+	margin-bottom: 20px;
+}
+.portada .header .mensaje {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+/* ? ----- MAIN ----- */
+main {
+	max-width: 1000px;
+	margin: auto;
+	width: 90%;
+	padding: 60px 0;
+	font-size: 18px;
+	line-height: 28px;
+	text-align: left;
+}
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	margin-bottom: 100px;
+}
+.simply-section {
+	background: linear-gradient(#0c24fa, #f1ea1b);
+	width: 150px;
+	height: 150px;
+	margin: 0 40px;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.9;
+	
+}
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+	color: rgb(248, 244, 244);
+}
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+	color: #ffffff;
+}
+@media screen and (min-width: 200px) and (max-width: 1024px){	
+} 
+/* ? ----- REDES SOCIALES ----- */
+a{
+	text-decoration: none;
+}
+.redes-sociales .btn-red-social {
+	padding: 30px 15px;
+	display: inherit;
+	min-width: 100px;
+	border-radius: 25px;
+	background: #3c5ff8;
+	color: rgb(255, 242, 0);
+	font-size: 15px;
+	position: relative;
+	right: 110px;
+	left: 1300px;
+	top: 200px;
+	transition: .3s ease all;
+	justify-content: center;
+	opacity: 0.7;
+}
+
+.redes-sociales .btn-red-social:hover {
+	box-shadow: 50px 50px 50px 10px rgba(0,0,0,.25);
+	color: #0704c9;
+	background-color: #f9f508;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px #0539f5;
+	-webkit-box-shadow: 0px 0px 15px 15px #1423c1;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
